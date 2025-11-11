@@ -1,16 +1,38 @@
-# x_o_app
 
-A new Flutter project.
+# XO App 🎮  
+A simple **Tic Tac Toe game** built with **Flutter**. Play against a friend in a clean, responsive UI optimized for mobile and web.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Live Demo  
+[Click here to play the game](https://lindimk.github.io/xo_app/)  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📸 Screenshots  
+*(Add screenshots of your app here)*  
+Example:  
+![XO App Screenshot](assets/screenshot.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## ✨ Features  
+- ✅ Classic Tic Tac Toe gameplay  
+- ✅ Responsive design for mobile and web  
+- ✅ Restart game option  
+- ✅ Color-coded player moves (X = Red, O = Blue)  
+
+---
+
+## 🛠 Tech Stack  
+- **Flutter** (Dart)  
+- **Material Design**  
+- **GitHub Pages** for deployment  
+
+---
+
+## 🔗 How to Run Locally  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/LindiMk/xo_app.git
+   cd xo_app
