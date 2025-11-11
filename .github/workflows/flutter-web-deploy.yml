@@ -17,16 +17,17 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.35.6' # Match your Flutter version
+          flutter-version: '3.19.0' # Match your Flutter version
+          channel: 'stable'
 
-      - name: Enable web
+      - name: Enable Flutter web
         run: flutter config --enable-web
 
       - name: Install dependencies
         run: flutter pub get
 
-      - name: Build web
-        run: flutter build web --release
+      - name: Build Flutter web with correct base href
+        run: flutter build web --release --base-href "/xo_app/"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
